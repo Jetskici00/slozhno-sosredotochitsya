@@ -1,7 +1,5 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+/* variable styles */
+
 :root {
   --page-font-family: "IBM Plex mono", monospace;
   --page-background-color: var(--color-black-1, #000028);
@@ -27,5 +25,5 @@
   --highlight-color: var(--color-black-1, #000028);
   --brand-color: var(--color-purple-1, #db00ff);
 
-  --rec-decor-visibility: visible;
+  --decor-rec-visibility: visible;
 }
