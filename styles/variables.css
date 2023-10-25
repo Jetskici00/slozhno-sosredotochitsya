@@ -1,29 +1,31 @@
 /* variable styles */
-
 :root {
-  --page-font-family: "IBM Plex mono", monospace;
-  --page-background-color: var(--color-black-1, #000028);
+  --page-font-family: "IBM Plex mono";
+  --page-background-color: var(--color-black-1);
   --page-background-image: url("../images/cover-image.png");
-
-  --color-black-1: #000028;
-  --color-black-2: #353430;
-  --color-black-2-o-40: #35343040;
-
-  --color-purple-1: #db00ff;
-  --color-purple-2: #ff0070;
-  --color-purple-2-o-40: #ff007040;
-
-  --color-pink-1: #fff1f7;
-  --color-pink-2: #f1b2ce;
-  --color-pink-3: #ffc2e6;
-  --color-pink-4: #ff8dcb;
-
-  --text-color: var(--color-pink-2, #f1b2ce);
-  --secondary-color: var(--color-purple-2, #ff0070);
-  --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040);
-  --accent-color: var(--color-purple-2, #ff0070);
-  --highlight-color: var(--color-black-1, #000028);
-  --brand-color: var(--color-purple-1, #db00ff);
-
+  --color-black-1: #000028; /* Dark Theme Background */
+  --color-black-2: #353430; 
+  --color-black-2-o-40: #35343040; 
+  --color-purple-1: #db00ff; 
+  --color-purple-2: #ff0070; 
+  --color-purple-2-o-40: #ff007040; 
+  --color-pink-1: #fff1f7; /* White Theme Background */
+  --color-pink-2: #f1b2ce; 
+  --color-pink-3: #ffc2e6; 
+  --color-pink-4: #ff8dcb; 
+  --text-color: var(--color-pink-2); 
+  --secondary-color: var(--color-purple-2); 
+  --secondary-color-o-40: var(--color-purple-2-o-40); 
+  --accent-color: var(--color-purple-2); 
+  --highlight-color: var(--color-black-1); 
+  --brand-color: var(--color-purple-1); 
+  --font-size-main: 18px;
+  --font-size-375: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); 
+  --font-size-768: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+  --inset-inline-block: clamp(10px, 0.0286rem + 2.5445vw, 20px); /* Parameters for inset inline/block */
+  --inline-size-768: clamp(364px, calc(100% / 2 - 10px), 491px); /* Parameters for inline 768px */
+  --grid-template-768: clamp(236px, calc(100% / 3.25), 315px) 1fr; /* Parameters for grid 768px */
   --decor-rec-visibility: visible;
 }
