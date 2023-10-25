@@ -105,6 +105,13 @@
   color: var(--secondary-color, #ff0070);
 }
 
+.title-how {
+  font-weight: 400;
+  font-size: inherit;
+  line-height: inherit;
+  color: var(--secondary-color, #ff0070);
+}
+
 .title-decor {
   background: var(--accent-color, #ff0070);
   color: var(--highlight-color, #000028);
@@ -131,6 +138,10 @@
 .article {
   display: grid;
   gap: 10px;
+}
+
+.article-second {
+  margin-bottom: 20px;
 }
 
 .gallery-list {
@@ -208,9 +219,13 @@
   place-items: center;
 }
 
-/* Shadow heading "Сложно сосредоточиться" */
-.shadow-decor {
+/* Shadow heading */
+.h1-shadow-decor {
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
+}
+
+.shadow-decor {
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
 
 /* styles for screens >= 768px */
