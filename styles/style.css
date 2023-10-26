@@ -310,8 +310,8 @@
     margin-inline-start: 20px;
     justify-self: center;
   }
-  
-  .header__theme-menu-list { 
-    flex-direction: row; 
+
+  .header__theme-menu-list {
+    flex-direction: row;
   }
 }
